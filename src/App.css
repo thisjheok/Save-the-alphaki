@@ -68,13 +68,30 @@ html, body {
   background-color: #FFBF5F;
 }
 
-/* 새로 추가된 스타일 */
 .success-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  max-width: 100%;
+  padding: 20px;
 }
 
-.back-button {
-  display: inline-block;
+.success-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.success-text {
+  white-space: pre-line;
+  margin-bottom: 20px;
+  color: #121212;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.next-button {
   background-color: #FFD37D;
   padding: 10px 20px;
   border: none;
@@ -83,10 +100,9 @@ html, body {
   color: black;
   cursor: pointer;
   text-decoration: none;
-  margin-top: 20px;
 }
 
-.back-button:hover {
+.next-button:hover {
   background-color: #FFBF5F;
 }
 
@@ -100,9 +116,17 @@ html, body {
     padding: 12px;
   }
 
-  .submit-button, .back-button {
+  .submit-button, .next-button {
     font-size: 1.1rem;
     padding: 12px 30px;
+  }
+
+  .success-page {
+    padding: 40px;
+  }
+
+  .success-text {
+    font-size: 1.2rem;
   }
 }
 
@@ -116,8 +140,16 @@ html, body {
     padding: 15px;
   }
 
-  .submit-button, .back-button {
+  .submit-button, .next-button {
     font-size: 1.3rem;
     padding: 15px 40px;
+  }
+
+  .success-page {
+    padding: 60px;
+  }
+
+  .success-text {
+    font-size: 1.5rem;
   }
 }
