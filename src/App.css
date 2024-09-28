@@ -78,9 +78,14 @@ html, body {
 }
 
 .success-image {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
   margin-bottom: 20px;
+}
+
+.main-image {
+  max-width: 90%;
+  height: auto;
 }
 
 .success-text {

@@ -8,7 +8,7 @@ const pages = [
     text: '건물의 문을 열고 들어간 순간,\n알파카와 범인들을 발견한다.\n당신은 침착하게 행동하여\n무사히 범인들을 신고한 뒤,\n알파카를 구출할 수 있게 된다.',
   },
   {
-    image: '/alphaki.png',
+    image: '/alphki_nukki.png',
     text: '나를 구하러 와줘서 정말 고마워!\n똑똑한 너희들이 없었다면 큰 위험에\n빠졌을 지도 몰라.. 감사의 의미로 간식을\n준비했는데 맛있게 먹어주길 바래!\n\n다음에 또 보자! 안녕!',
   },
   {
@@ -31,7 +31,7 @@ const SuccessPage: React.FC = () => {
 
   return (
     <div className="success-page">
-      <img src={pages[currentPage].image} alt="Success" className="success-image" />
+      <img src={pages[currentPage].image} alt="Success" className="main-image" />
       <p className="success-text">{pages[currentPage].text}</p>
       <button onClick={handleNext} className="next-button">
         {currentPage < pages.length - 1 ? '다음' : '처음으로'}

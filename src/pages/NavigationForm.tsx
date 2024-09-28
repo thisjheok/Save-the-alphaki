@@ -20,12 +20,13 @@ const NavigationForm: React.FC = () => {
 
   return (
     <>
+    <img src='alphachi_logo_nukki.png' className="success-image"/>
       <h2 className="title">
         알파카이<br />네비게이션
       </h2>
       <input
         type="text"
-        placeholder="00로 00건물 00호"
+        placeholder="00동 00건물 00호"
         value={address}
         onChange={handleInputChange}
         className="input-field"
