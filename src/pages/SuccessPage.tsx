@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const pages = [
   {
     image: '/door.png',
-    text: '건물의 문을 열고 들어간 순간,\n알파카와 범인들을 발견한다.\n당신은 침착하게 행동하여\n무사히 범인들을 신고한 뒤,\n알파카를 구출할 수 있게 된다.',
+    text: '건물의 문을 열고 들어간 순간,\n알파키와 범인들을 발견한다.\n당신은 침착하게 행동하여\n무사히 범인들을 신고한 뒤,\n알파키를 구출할 수 있게 된다.',
   },
   {
     image: '/alphki_nukki.png',
@@ -13,7 +13,7 @@ const pages = [
   },
   {
     image: '/clap.png',
-    text: '알파카 구출에 성공하셨습니다!\n\n안내가 끝난 후 알파카가 준비한 간식을\n받아가시길 바랍니다:)\n\n저희는 영어회화 중앙동아리\n알파카이며, 부스가 맘에 드셨다면\n저희 동아리에게도 많은 관심 부탁드립니다!\n\n부스에 참여해주셔서 진심으로\n감사드립니다!',
+    text: '알파키 구출에 성공하셨습니다!\n\n안내가 끝난 후 알파키가 준비한 간식을\n받아가시길 바랍니다:)\n\n저희는 영어회화 중앙동아리\n"알파카이"며, 부스가 맘에 드셨다면\n저희 동아리에게도 많은 관심 부탁드립니다!\n\n부스에 참여해주셔서 진심으로\n감사드립니다!',
   },
 ];
 
@@ -31,7 +31,7 @@ const SuccessPage: React.FC = () => {
 
   return (
     <div className="success-page">
-      <img src={pages[currentPage].image} alt="Success" className="main-image" />
+      <img src={pages[currentPage].image} alt="Success" className="success-image" />
       <p className="success-text">{pages[currentPage].text}</p>
       <button onClick={handleNext} className="next-button">
         {currentPage < pages.length - 1 ? '다음' : '처음으로'}

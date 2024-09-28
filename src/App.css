@@ -78,13 +78,13 @@ html, body {
 }
 
 .success-image {
-  max-width: 75%;
+  max-width: 55%;
   height: auto;
   margin-bottom: 20px;
 }
 
 .main-image {
-  max-width: 90%;
+  max-width: 70%;
   height: auto;
 }
 

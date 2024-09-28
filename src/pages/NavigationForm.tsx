@@ -20,7 +20,7 @@ const NavigationForm: React.FC = () => {
 
   return (
     <>
-    <img src='alphachi_logo_nukki.png' className="success-image"/>
+    <img src='logo_nukki_2.png' className="main-image"/>
       <h2 className="title">
         알파카이<br />네비게이션
       </h2>
