@@ -11,7 +11,7 @@ const NavigationForm: React.FC = () => {
   };
 
   const handleButtonClick = () => {
-    if (address === "알카동 AX건물 9호") {
+    if (address === "알카동 AX건물 5호") {
       navigate("/success");
     } else {
       alert("올바르지 않은 주소에요 ㅠㅠ");
